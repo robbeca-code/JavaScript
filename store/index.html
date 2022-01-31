@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Store</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div href="#" class="logo"><img src="images/logo.png" alt="Logo" class="hover"></div>
+            <ul class="nav">
+                <li class="nav__icon">
+                    <img src="images/blue_t.png" class="hover nav__img"  data-key="type" data-value="t-shirt">
+                </li>
+                <li class="nav__icon">
+                    <img src="images/blue_p.png" class="hover nav__img" data-key="type" data-value="pants">
+                </li>
+                <li class="nav__icon">
+                    <img src="images/blue_s.png" class="hover nav__img" data-key="type" data-value="skirt">
+                </li>
+                <li class="nav__icon">
+                    <input type="button" value="Blue" class="hover blueColor nav__button" data-key="color" data-value="blue">
+                </li>
+                <li class="nav__icon">
+                    <input type="button" value="Yellow" class="hover yellowColor nav__button" data-key="color" data-value="yellow">
+                </li>
+                <li class="nav__icon">
+                    <input type="button" value="Pink" class="hover pinkColor nav__button" data-key="color" data-value="pink">
+                </li>
+            </ul>
+        </header>
+        <main class="main">
+            <ul class="items"></ul>        
+        </main>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

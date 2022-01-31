@@ -1,0 +1,25 @@
+:root {
+  --white-color: #fafafa;
+}
+
+.main {
+  overflow-y: scroll;
+  height: 300px;
+  margin: 3% 35%;
+}
+
+.items > li {
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  margin-bottom: 0.5em;
+}
+
+.items > li > img {
+  width: 3em;
+  padding: 0.3em 0.5em;
+}
+
+.items > li > span {
+  font-size: 0.9em;
+}
