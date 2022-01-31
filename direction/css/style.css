@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.image_button {
+  padding: 5em 20em;
+}
+
+.image_button > img {
+  width: 23em;
+}
+
+.image_button > button {
+  position: absolute;
+  margin-left: 2%;
+}
+
+.deraction {
+  position: absolute;
+  height: 20em;
+  width: 21em;
+  overflow-y: scroll;
+  top: 28%;
+  right: 17%;
+}
+
+.items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.items > .item {
+  margin-bottom: 2em;
+}
+
+.close {
+  position: absolute;
+  top: 85%;
+  right: 40%;
+}
+
+.hidden {
+  display: none;
+}
