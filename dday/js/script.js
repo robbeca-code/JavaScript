@@ -1,5 +1,6 @@
 let now = new Date();
-let firstDate = new Date('2020-10-01');
+let date = prompt('처음 만난 날짜는?', '2020-10-01');
+let firstDate = new Date(date);
 let toNow = now.getTime();
 let toFirst = firstDate.getTime();
 let passedTime = toNow - toFirst;
