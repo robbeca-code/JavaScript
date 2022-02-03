@@ -1,0 +1,49 @@
+:root {
+  --blue-color: #1565c0;
+  --yellow-color: #ffff00;
+  --pink-color: #ff4081;
+}
+
+/* header */
+.header {
+  width: 100%;
+}
+
+/* logo */
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo > img {
+  width: 6em;
+}
+
+/* nav */
+.nav {
+  margin: 2em 460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* icons */
+.nav__icon > img {
+  width: 3em;
+}
+
+.nav__icon > .nav__button {
+  width: 4em;
+  height: 3em;
+  border: none;
+}
+
+.nav__icon > .blueColor {
+  background-color: var(--blue-color);
+}
+.nav__icon > .yellowColor {
+  background-color: var(--yellow-color);
+}
+.nav__icon > .pinkColor {
+  background-color: var(--pink-color);
+}
