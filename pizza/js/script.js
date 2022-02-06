@@ -7,6 +7,7 @@ total.value = `${price}원`;
 function calc(event) {
     let checked = event.target.checked;
     let value = event.target.value;
+
     if(checked == true) {
         price += parseInt(value);
     } else {
