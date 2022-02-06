@@ -1,0 +1,20 @@
+#wrap {
+  width: 450px;
+  margin: 10px auto;
+  padding-top: 20px;
+}
+
+.orderForm__field {
+  border: 1px solid #999;
+  margin-bottom: 20px;
+}
+
+.orderForm__title {
+  color: #333;
+}
+
+#total {
+  border: none;
+  font-size: 19px;
+  height: 27px;
+}
