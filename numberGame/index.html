@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Number Game</title>
+  </head>
+  <body>
+    <main id="wrap">
+      <h1 class="title">숫자 맞추기 게임</h1>
+      <p class="description">1 ~ 100 까지의 숫자를 입력하세요.</p>
+      <form class="input-form">
+        <fieldset class="ex">
+          <legend class="visually-hidden">숫자입력</legend>
+          <input
+            class="number"
+            type="number"
+            placehorder="1부터 100까지 숫자만 입력하세요."
+          />
+          <button type="submit" class="check btn">확인</button>
+          <button type="reset" class="reset btn">다시</button>
+        </fieldset>
+      </form>
+      <div class="output"></div>
+      <footer class="counter"></footer>
+    </main>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
