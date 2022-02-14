@@ -1,0 +1,63 @@
+body {
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 350px;
+  margin: 30px auto;
+}
+
+.title {
+  text-align: center;
+}
+
+/* Change */
+.change {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #fcfcfc;
+  border: 1px solid #eee;
+}
+
+.box {
+  display: inline-block;
+  height: 28px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.textInput {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  padding-right: 3px;
+  border: none;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Exchange span */
+#exchange {
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  margin: 0 10px;
+  line-height: 25px;
+}
+
+#exchange:hover {
+  cursor: pointer;
+}
+
+.unit {
+  width: 40px;
+  height: 25px;
+  padding-right: 10px;
+  line-height: 25px;
+  font-family: "돋움";
+  font-size: 12px;
+  text-align: right;
+}
