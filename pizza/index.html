@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pizza store</title>
+</head>
+<body>
+    <div id="wrap">
+        <h1>피자 주문</h1>
+        <form id="orderForm">
+            <fieldset class="orderForm__field">
+                <legend class="orderForm__title">사이즈</legend>
+                <p>Large - 24000 원</p>
+            </fieldset>
+            <fieldset class="orderForm__field">
+                <legend class="orderForm__title">추가 주문</legend>
+                <input type="checkbox" value="800" id="pickle" class="check">피클(800원)
+                <input type="checkbox" value="300" id="chilly" class="check">칠리 소스(300원)
+                <input type="checkbox" value="200" id="deeping" class="check">디핑 소스(200원)
+                <input type="checkbox" value="4800" id="stick" class="check">치즈스틱(4개, 4800원)
+                <input type="checkbox" value="2400" id="salad" class="check">콘 샐러드(2400원)
+            </fieldset>
+            <fieldset class="orderForm__field">
+                <legend class="orderForm__title">합계</legend>
+                <input type="text" id="total" name="total" readonly>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
